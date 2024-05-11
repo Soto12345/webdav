@@ -1,0 +1,72 @@
+[Thu Apr 11 03:31:46.458073 2024] [auth_basic:error] [pid 4991:tid 140022661486336] [client 10.0.0.1:39072] AH01617: user diego: authentication failure for "/": Password Mismatch
+[Thu Apr 11 03:31:52.142868 2024] [auth_basic:error] [pid 4990:tid 140022787344128] [client 10.0.0.1:52402] AH01617: user diego: authentication failure for "/": Password Mismatch
+[Wed May 01 23:16:49.744893 2024] [php7:error] [pid 9968] [client 10.0.0.1:46120] script '/var/www/webdav/logout.php' not found or unable to stat
+[Wed May 01 23:44:38.835892 2024] [auth_basic:error] [pid 440] [client 10.0.0.1:57032] AH01617: user soto: authentication failure for "/": Password Mismatch
+[Wed May 01 23:45:21.992712 2024] [auth_basic:error] [pid 442] [client 10.0.0.1:59678] AH01617: user soto: authentication failure for "/": Password Mismatch
+[Wed May 01 23:46:26.113063 2024] [auth_basic:error] [pid 444] [client 10.0.0.1:38922] AH01617: user soto: authentication failure for "/": Password Mismatch
+[Wed May 01 23:46:27.428685 2024] [auth_basic:error] [pid 440] [client 10.0.0.1:38928] AH01618: user  not found: /
+[Wed May 01 23:46:33.974736 2024] [auth_basic:error] [pid 441] [client 10.0.0.1:46048] AH01617: user soto: authentication failure for "/": Password Mismatch
+[Thu May 02 00:38:16.961571 2024] [auth_basic:error] [pid 735] [client 10.0.0.1:41908] AH01618: user root not found: /img/logo.png
+[Thu May 02 00:39:49.994832 2024] [dav:error] [pid 738] [client 10.0.0.1:36390] Unable to PUT new contents for /img/logo.png.  [500, #0]
+[Thu May 02 00:39:49.994874 2024] [dav:error] [pid 738] (13)Permission denied: [client 10.0.0.1:36390] An error occurred while opening a resource for writing: /var/www/webdav/img/logo.png.  [500, #0]
+[Thu May 02 00:40:16.862974 2024] [auth_basic:error] [pid 739] [client 10.0.0.1:55500] AH01618: user root not found: /img/logo.png
+[Thu May 02 00:40:29.225163 2024] [dav:error] [pid 736] [client 10.0.0.1:41034] Unable to PUT new contents for /img/logo.png.  [500, #0]
+[Thu May 02 00:40:29.225186 2024] [dav:error] [pid 736] (13)Permission denied: [client 10.0.0.1:41034] An error occurred while opening a resource for writing: /var/www/webdav/img/logo.png.  [500, #0]
+[Thu May 02 00:40:41.944237 2024] [auth_basic:error] [pid 737] [client 10.0.0.1:58112] AH01618: user root not found: /img/logo.png
+[Thu May 02 00:41:01.546486 2024] [auth_basic:error] [pid 735] [client 10.0.0.1:51208] AH01617: user diego: authentication failure for "/img/logo.png": Password Mismatch
+[Thu May 02 00:41:42.723291 2024] [auth_basic:error] [pid 738] [client 10.0.0.1:35820] AH01618: user  not found: /img/logo.png
+[Thu May 02 00:41:52.842733 2024] [dav:error] [pid 739] [client 10.0.0.1:38010] Unable to PUT new contents for /img/logo.png.  [500, #0]
+[Thu May 02 00:41:52.842755 2024] [dav:error] [pid 739] (13)Permission denied: [client 10.0.0.1:38010] An error occurred while opening a resource for writing: /var/www/webdav/img/logo.png.  [500, #0]
+[Thu May 02 00:43:33.572054 2024] [dav:error] [pid 737] [client 10.0.0.1:58242] Unable to PUT new contents for /img/logo.png.  [500, #0]
+[Thu May 02 00:43:33.572097 2024] [dav:error] [pid 737] (13)Permission denied: [client 10.0.0.1:58242] An error occurred while opening a resource for writing: /var/www/webdav/img/logo.png.  [500, #0]
+[Thu May 02 00:43:55.864942 2024] [auth_basic:error] [pid 735] [client 10.0.0.1:46868] AH01618: user  not found: /img/logo.png
+[Thu May 02 00:44:02.662388 2024] [auth_basic:error] [pid 738] [client 10.0.0.1:44850] AH01618: user  not found: /img/logo.png
+[Thu May 02 00:44:15.396802 2024] [dav:error] [pid 739] [client 10.0.0.1:47884] Unable to PUT new contents for /img/logo.png.  [500, #0]
+[Thu May 02 00:44:15.396870 2024] [dav:error] [pid 739] (13)Permission denied: [client 10.0.0.1:47884] An error occurred while opening a resource for writing: /var/www/webdav/img/logo.png.  [500, #0]
+[Thu May 02 02:00:08.234991 2024] [auth_basic:error] [pid 1069] [client 10.0.0.1:39308] AH01618: user 1@gmail.com not found: /
+[Thu May 02 02:27:41.590128 2024] [auth_basic:error] [pid 1183] [client 10.0.0.3:47986] AH01617: user 3@gmail.com: authentication failure for "/pass.dav": Password Mismatch
+[Thu May 02 02:33:30.778251 2024] [auth_basic:error] [pid 1222] [client 10.0.0.1:37156] AH01618: user 1@gmail.com not found: /
+[Thu May 02 02:33:39.982020 2024] [auth_basic:error] [pid 1225] [client 10.0.0.1:60232] AH01618: user 1@gmail.com not found: /
+[Thu May 02 03:12:47.995984 2024] [auth_basic:error] [pid 1359] [client 10.0.0.1:42434] AH01618: user 8@gmail.com not found: /
+[Thu May 02 03:58:14.555508 2024] [dav:error] [pid 1382] (13)Permission denied: [client 10.0.0.3:60922] Unable to create collection.  [403, #0]
+[Thu May 02 03:58:14.618101 2024] [dav:error] [pid 1385] [client 10.0.0.3:60932] Unable to PUT new contents for /pdfs/1@gmail.com/4VB57761YG138705J_comprobante.pdf.  [409, #0]
+[Thu May 02 03:58:14.618134 2024] [dav:error] [pid 1385] (2)No such file or directory: [client 10.0.0.3:60932] An error occurred while opening a resource for writing: /var/www/webdav/pdfs/1@gmail.com/4VB57761YG138705J_comprobante.pdf.  [409, #0]
+[Thu May 02 04:14:06.967419 2024] [dav:error] [pid 1383] (13)Permission denied: [client 10.0.0.3:35712] Unable to create collection.  [403, #0]
+[Thu May 02 04:14:07.028920 2024] [dav:error] [pid 1447] [client 10.0.0.3:35728] Unable to PUT new contents for /pdfs/1@gmail.com/2U107859MV734742Y_comprobante.pdf.  [409, #0]
+[Thu May 02 04:14:07.028946 2024] [dav:error] [pid 1447] (2)No such file or directory: [client 10.0.0.3:35728] An error occurred while opening a resource for writing: /var/www/webdav/pdfs/1@gmail.com/2U107859MV734742Y_comprobante.pdf.  [409, #0]
+[Thu May 02 04:17:28.777178 2024] [dav:error] [pid 1517] (13)Permission denied: [client 10.0.0.3:41334] Unable to create collection.  [403, #0]
+[Thu May 02 04:17:28.838888 2024] [dav:error] [pid 1520] [client 10.0.0.3:41344] Unable to PUT new contents for /pdfs/1@gmail.com/4PJ313082Y4010400_comprobante.pdf.  [409, #0]
+[Thu May 02 04:17:28.838926 2024] [dav:error] [pid 1520] (2)No such file or directory: [client 10.0.0.3:41344] An error occurred while opening a resource for writing: /var/www/webdav/pdfs/1@gmail.com/4PJ313082Y4010400_comprobante.pdf.  [409, #0]
+[Thu May 02 04:39:59.703995 2024] [dav:error] [pid 1519] [client 10.0.0.3:50890] Unable to PUT new contents for /webdav/pdfs/1@gmail.com/9HP34740SV2218255_comprobante.pdf.  [409, #0]
+[Thu May 02 04:39:59.704023 2024] [dav:error] [pid 1519] (2)No such file or directory: [client 10.0.0.3:50890] An error occurred while opening a resource for writing: /var/www/webdav/webdav/pdfs/1@gmail.com/9HP34740SV2218255_comprobante.pdf.  [409, #0]
+[Thu May 02 04:44:01.909718 2024] [dav:error] [pid 1581] [client 10.0.0.3:47690] Unable to PUT new contents for /pdfs/1@gmail.com/15J092999V877413C_comprobante.pdf.  [409, #0]
+[Thu May 02 04:44:01.909757 2024] [dav:error] [pid 1581] (2)No such file or directory: [client 10.0.0.3:47690] An error occurred while opening a resource for writing: /var/www/webdav/pdfs/1@gmail.com/15J092999V877413C_comprobante.pdf.  [409, #0]
+[Thu May 02 05:05:16.983514 2024] [dav:error] [pid 1521] [client 10.0.0.3:49222] Unable to PUT new contents for /webdav/pdfs/1@gmail.com/6HP48244N4185852G_comprobante.pdf.  [409, #0]
+[Thu May 02 05:05:16.983539 2024] [dav:error] [pid 1521] (2)No such file or directory: [client 10.0.0.3:49222] An error occurred while opening a resource for writing: /var/www/webdav/webdav/pdfs/1@gmail.com/6HP48244N4185852G_comprobante.pdf.  [409, #0]
+[Thu May 02 05:07:23.606149 2024] [dav:error] [pid 1599] [client 10.0.0.3:59296] Unable to PUT new contents for /webdav/pdfs/1@gmail.com/72069563CK069893R_comprobante.pdf.  [409, #0]
+[Thu May 02 05:07:23.606188 2024] [dav:error] [pid 1599] (2)No such file or directory: [client 10.0.0.3:59296] An error occurred while opening a resource for writing: /var/www/webdav/webdav/pdfs/1@gmail.com/72069563CK069893R_comprobante.pdf.  [409, #0]
+[Thu May 02 05:09:09.883302 2024] [dav:error] [pid 1617] [client 10.0.0.3:39100] Unable to PUT new contents for /webdav/pdfs/1@gmail.com/3W683060BC214345J_comprobante.pdf.  [409, #0]
+[Thu May 02 05:09:09.883328 2024] [dav:error] [pid 1617] (2)No such file or directory: [client 10.0.0.3:39100] An error occurred while opening a resource for writing: /var/www/webdav/webdav/pdfs/1@gmail.com/3W683060BC214345J_comprobante.pdf.  [409, #0]
+[Sun May 05 20:38:02.790047 2024] [auth_basic:error] [pid 368] [client 10.0.0.1:40504] AH01618: user  not found: /
+[Sun May 05 22:35:05.260599 2024] [dav:error] [pid 370] [client 10.0.0.3:54764] Unable to PUT new contents for /pdfs/4@gmail.com4@gmail.com/0HH055655P660974J_comprobante.pdf.  [409, #0]
+[Sun May 05 22:35:05.260628 2024] [dav:error] [pid 370] (2)No such file or directory: [client 10.0.0.3:54764] An error occurred while opening a resource for writing: /var/www/webdav/pdfs/4@gmail.com4@gmail.com/0HH055655P660974J_comprobante.pdf.  [409, #0]
+[Sun May 05 22:38:12.722603 2024] [dav:error] [pid 371] [client 10.0.0.3:59900] Unable to PUT new contents for /pdfs/4@gmail.com/4@gmail.com/0HH055655P660974J_comprobante.pdf.  [409, #0]
+[Sun May 05 22:38:12.722644 2024] [dav:error] [pid 371] (2)No such file or directory: [client 10.0.0.3:59900] An error occurred while opening a resource for writing: /var/www/webdav/pdfs/4@gmail.com/4@gmail.com/0HH055655P660974J_comprobante.pdf.  [409, #0]
+[Sun May 05 23:23:20.051596 2024] [php7:warn] [pid 921] [client 10.0.0.1:41780] PHP Warning:  scandir(/pdfs): failed to open dir: No such file or directory in /var/www/webdav/index.php on line 43
+[Sun May 05 23:23:20.051650 2024] [php7:warn] [pid 921] [client 10.0.0.1:41780] PHP Warning:  scandir(): (errno 2): No such file or directory in /var/www/webdav/index.php on line 43
+[Sun May 05 23:23:20.051669 2024] [php7:warn] [pid 921] [client 10.0.0.1:41780] PHP Warning:  Invalid argument supplied for foreach() in /var/www/webdav/index.php on line 46
+[Sun May 05 23:24:46.793946 2024] [php7:warn] [pid 943] [client 10.0.0.1:60526] PHP Warning:  scandir(/pdfs/): failed to open dir: No such file or directory in /var/www/webdav/index.php on line 43
+[Sun May 05 23:24:46.794018 2024] [php7:warn] [pid 943] [client 10.0.0.1:60526] PHP Warning:  scandir(): (errno 2): No such file or directory in /var/www/webdav/index.php on line 43
+[Sun May 05 23:24:46.794044 2024] [php7:warn] [pid 943] [client 10.0.0.1:60526] PHP Warning:  Invalid argument supplied for foreach() in /var/www/webdav/index.php on line 46
+[Mon May 06 00:12:22.537173 2024] [php7:notice] [pid 378] [client 10.0.0.1:55240] PHP Notice:  Undefined variable: _SESSION in /var/www/webdav/index.php on line 34
+[Mon May 06 00:12:22.538393 2024] [php7:notice] [pid 378] [client 10.0.0.1:55240] PHP Notice:  Trying to access array offset on value of type null in /var/www/webdav/index.php on line 34
+[Mon May 06 00:12:23.575050 2024] [php7:notice] [pid 380] [client 10.0.0.1:55270] PHP Notice:  Undefined variable: _SESSION in /var/www/webdav/index.php on line 34
+[Mon May 06 00:12:23.575500 2024] [php7:notice] [pid 380] [client 10.0.0.1:55270] PHP Notice:  Trying to access array offset on value of type null in /var/www/webdav/index.php on line 34
+[Mon May 06 00:13:16.706820 2024] [php7:notice] [pid 398] [client 10.0.0.1:60996] PHP Notice:  Undefined variable: _SESSION in /var/www/webdav/index.php on line 34
+[Mon May 06 00:13:16.706881 2024] [php7:notice] [pid 398] [client 10.0.0.1:60996] PHP Notice:  Trying to access array offset on value of type null in /var/www/webdav/index.php on line 34
+[Mon May 06 00:22:30.903836 2024] [auth_basic:error] [pid 425] [client 10.0.0.1:55738] AH01617: user administrador@gmail.com: authentication failure for "/": Password Mismatch
+[Mon May 06 00:22:45.679486 2024] [auth_basic:error] [pid 424] [client 10.0.0.1:36608] AH01618: user administrador@gmail.com  not found: /
+[Mon May 06 00:23:00.066253 2024] [php7:notice] [pid 426] [client 10.0.0.1:48262] PHP Notice:  Undefined index: usuario in /var/www/webdav/index.php on line 34
+[Mon May 06 00:25:39.686599 2024] [php7:notice] [pid 424] [client 10.0.0.1:60502] PHP Notice:  Undefined index: usuario in /var/www/webdav/index.php on line 34
+[Mon May 06 01:00:52.580944 2024] [auth_basic:error] [pid 746] [client 10.0.0.1:49756] AH01617: user 1@gmail.com: authentication failure for "/": Password Mismatch
+[Tue May 07 07:37:20.939943 2024] [auth_basic:error] [pid 352] [client 10.0.0.1:38214] AH01617: user administrador@gmail.com: authentication failure for "/": Password Mismatch

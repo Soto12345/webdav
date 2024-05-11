@@ -1,0 +1,71 @@
+/* Body */
+:root{
+    --lg-font: 'Kaisei Tokumin', serif;
+    --sm-font: 'Poppins', sans-serif;
+    --pink: #d334e5;
+}
+body{
+    font-family: var(--sm-font);
+    background-image: url('https://cutewallpaper.org/22/black-and-blue-3d-cube-wallpapers/1032526166.jpg');
+    /*Aqui ponemos el margin para centrar los productos*/
+    margin-right: 50px;
+    margin-left: 50px;  
+}
+
+/* navbar (components) */
+.navbar{
+    -webkit-box-shadow: 0 3px 9px 3px rgba(44, 42, 42, 0.1);
+            box-shadow: 0 3px 9px 3px rgba(39, 38, 38, 0.1);
+}
+.navbar-brand img{
+    width: 30px;
+}
+.navbar-brand span{
+    letter-spacing: 2px;
+    font-family: var(--lg-font);
+}
+.nav-link:hover{
+    color: var(--pink)!important;
+}
+.nav-item{
+    border-bottom: 0.5px solid rgba(0, 0, 0, 0.05);
+}
+
+/*ESTA CLASE ES PARA ACOMODAR LAS COLUMNAS DE LOS PRODUCTOS (Esto tambien esta en categorias)*/
+.col-md-3 {
+    display: block;
+    margin-top: 25px;
+    margin-bottom: 5px;
+}
+
+.card{
+    background-color: aliceblue;
+}
+
+.card-title {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 1.5rem;
+}
+
+.card-body {
+    text-align: center;
+    padding: 15px;
+    
+}
+
+/*Limita el tamaño de las imagenes de los productos*/
+.img-fluid{
+    margin-left: 90px;
+    margin-right: 50px;
+    width: 150px;
+    height: 150px;
+}
+
+/*Hacer pagina de detalles*/
+
+/*alinear boton*/
+
+.form_details{
+    left:100px;
+}
